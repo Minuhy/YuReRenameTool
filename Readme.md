@@ -19,6 +19,6 @@
 
 ### 程序截图
 
-![image-20230314144822244](images/Readme/image-20230314144822244.png)
+![程序主窗口](images/Readme/image-20230314144822244.png)
 
 2022-11-25 by Minuhy
