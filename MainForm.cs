@@ -591,7 +591,9 @@ namespace RenameTools
         {
             if(sender is ListBox lb)
             {
-                tbName.Text = lb.Items[lb.SelectedIndex].ToString();
+                if(lb.SelectedIndex >=0 && lb.SelectedIndex< lb.Items.Count) { 
+                    tbName.Text = lb.Items[lb.SelectedIndex].ToString();
+                }
             }
         }
 
